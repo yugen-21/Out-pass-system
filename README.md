@@ -27,6 +27,7 @@ Upon clicking on "SUBMIT", a toastify notification is enabled.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/94f6f9bb-3948-4e63-919b-b9c4d60bc523)
 
+Overlap check:
 If the leave date and return date overlaps with already existing leave dates and return dates in the database, the data doesn't get submitted. Only a notification is enabled.
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/4549f0bc-4a8a-495f-8675-2bcea4670fbc)
 
