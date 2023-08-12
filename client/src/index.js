@@ -8,13 +8,14 @@ import CreateOutpass from "./routes/CreateOutpass";
 import Help from "./routes/Help";
 import ViewHistory from "./routes/ViewHistory";
 import WardenDetails from "./routes/WardenDetails";
+import ZeroMessage from "./routes/homeElements/zeroMessage";
 import "./styles.css";
 
 var email_id = 'shama21110467@snuchennai.edu.in';
 const AppLayout = () => {
   return (
     <>
-      <Navbar />
+      <Navbar email={email_id}/>
       <Outlet />
     </>
   );
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
         element: <Help />,
       },
     ],
+  },
+  {
+    path: "/Logout",
+    element: <ZeroMessage message="This is logout page"/>
   },
 ]);
 
