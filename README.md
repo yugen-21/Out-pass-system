@@ -91,9 +91,11 @@ When the leave date > return date:
 When the details are entered correctly, it enables a notification and it is redirected to home page:
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/1e5f3d6a-63ef-4030-9fcd-733d7715cb73)
 
-## Logout: Clicking on the user name leads to the logout page. A dedicated "/Logout" route is made for it.
+## Logout: 
+Clicking on the user name leads to the logout page. A dedicated "/Logout" route is made for it.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/6f2a9d21-6823-45fe-a930-fbb43a98493e)
 
 
-# Conclusion: A user-friendly student dashboard was built using ReactJS, NodeJS and MySQL.This project demonstrates my commitment to creating user-centric solutions and streamlining administrative tasks, ultimately improving the overall hostel experience for students. With the powerful combination of modern web technologies and a focus on user needs, I believe this student dashboard sets a new standard for out-pass management systems.
+## Conclusion: 
+A user-friendly student dashboard was built using ReactJS, NodeJS and MySQL.This project demonstrates my commitment to creating user-centric solutions and streamlining administrative tasks, ultimately improving the overall hostel experience for students. With the powerful combination of modern web technologies and a focus on user needs, I believe this student dashboard sets a new standard for out-pass management systems.
