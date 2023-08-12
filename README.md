@@ -1,6 +1,6 @@
 STUDENT DASHBOARD FOR OUT-PASS SYSTEM 
 
-This student dashboard aims to create an intuitive UI and seamless backend connectivity for an out-pass management system for hostels usinf ReactJS,HTML,CSS for front-end and NodeJS with ExpressJS, MySQL database for backend. 
+This student dashboard aims to create an intuitive UI and seamless backend connectivity for an out-pass management system for hostels using ReactJS, HTML, CSS for front-end and NodeJS with ExpressJS, MySQL database for backend. 
 
 The features include:
 
@@ -12,14 +12,14 @@ User-friendly responsive navbar:
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/60bc7eb8-d822-4409-bdc1-0da8e759996d)
 
 Create out-pass:
-Details of the student from MySQL database get auto-filled under the Create Outpass section.
+Details of the student from MySQL database get auto-filled under the "Create Outpass" section.
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/cb8e487d-7004-4d95-98fa-017980c97d33)
 
 Student must enter the details required for the out-pass registration.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/c7d9912f-37c0-4427-ba1c-5384e34d26b9)
 
-Upon clicking "SUBMIT", a toastify notification is enabled.
+Upon clicking on "SUBMIT", a toastify notification is enabled.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/94f6f9bb-3948-4e63-919b-b9c4d60bc523)
 
@@ -37,6 +37,8 @@ Once it is in-use, it can be extended.
 
 MODALS USED:
 A modal is a user interface component that overlays content on top of the main application, creating a "modal" or "pop-up" effect.
+
+
 VIEW MODAL:
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/c2133b7a-93ca-4434-b976-d81354740785)
 
