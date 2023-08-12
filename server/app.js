@@ -6,8 +6,8 @@ const port = 3001;
 const db = mysql.createPool({
   host: "localhost",
   user: "root",
-  password: "***",
-  database: "***",
+  password: "pass123",
+  database: "db2",
 });
 
 app.use(cors());
@@ -45,6 +45,21 @@ app.get("/dates",(req,res)=>{
           console.log(result);
           res.send(result);
       }
+  })
+});
+
+//to get warden details
+app.get("/warden",(req,res)=>{
+  hostel_no = req.query.hostel_no;
+  const query = "SELECT * from Warden where hostel=?";
+  db.query(query,[hostel_no],(err,result)=>{
+    if(err){
+      console.error(err);
+      res.send("An error occurred");
+    }
+    else{
+      res.send(result);
+    }
   })
 });
 
