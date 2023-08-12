@@ -43,13 +43,15 @@ MODALS USED:
 A modal is a user interface component that overlays content on top of the main application, creating a "modal" or "pop-up" effect.
 
 
-VIEW MODAL:
+VIEW MODAL: This is to view the out-pass created by the user along with it's status. This can be shown at the gate of the premises.
+
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/c2133b7a-93ca-4434-b976-d81354740785)
 
-EXTEND MODAL:
+EXTEND MODAL: This is if the student needs to extend their leave, they can just enter the updated return date.
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/eb157979-2a0f-436f-bf48-07f655e9a670)
 
-CANCEL MODAL:
+CANCEL MODAL: This is used if a student needs to redo their out-pass creation or other reasons like if the filled out-pass is never used by the student. Cancelled out-pass details are not used for overlap checks.
+
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/63bba092-7619-4315-a610-98c1ee9cce54)
 
 States of an out-pass:
@@ -85,6 +87,9 @@ When the leave date > return date:
 When the details are entered correctly, it enables a notification and it is redirected to home page:
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/1e5f3d6a-63ef-4030-9fcd-733d7715cb73)
 
+Logout: Clicking on the user name leads to the logout page. A dedicated "/Logout" route is made for it.
+
+![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/6f2a9d21-6823-45fe-a930-fbb43a98493e)
 
 
 Conclusion: A user-friendly student dashboard was built using ReactJS, NodeJS and MySQL.This project demonstrates my commitment to creating user-centric solutions and streamlining administrative tasks, ultimately improving the overall hostel experience for students. With the powerful combination of modern web technologies and a focus on user needs, I believe this student dashboard sets a new standard for out-pass management systems.
