@@ -1,17 +1,17 @@
-STUDENT DASHBOARD FOR OUT-PASS MANAGEMENT SYSTEM 
+##STUDENT DASHBOARD FOR OUT-PASS MANAGEMENT SYSTEM 
 
 This student dashboard aims to create an intuitive UI and seamless backend connectivity for an out-pass management system for hostels using ReactJS, HTML, CSS for front-end and NodeJS with ExpressJS, MySQL database for backend. 
 
 The features include:
 
-User-friendly responsive navbar: 
+#User-friendly responsive navbar: 
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/acaa1c8f-e3c4-4d6b-913b-9b9932b9964a)
 
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/60bc7eb8-d822-4409-bdc1-0da8e759996d)
 
-Create out-pass:
+#Create out-pass:
 Details of the student from MySQL database get auto-filled under the "Create Outpass" section/ "/CreateOutpass" route.
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/cb8e487d-7004-4d95-98fa-017980c97d33)
 
@@ -31,7 +31,7 @@ Overlap check:
 If the leave date and return date overlaps with already existing leave dates and return dates in the database, the data doesn't get submitted. Only a notification is enabled.
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/4549f0bc-4a8a-495f-8675-2bcea4670fbc)
 
-Home page: 
+#Home page: 
 
 An out-pass can be viewed only when the out-pass is approved.
 
@@ -40,7 +40,7 @@ An out-pass can be viewed only when the out-pass is approved.
 Once it is in-use, it can be extended.
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/ae5872dc-b91f-4cd3-8456-885bc7404b41)
 
-MODALS USED:
+##MODALS USED:
 A modal is a user interface component that overlays content on top of the main application, creating a "modal" or "pop-up" effect.
 
 
@@ -64,23 +64,23 @@ There are 6 states to an out-pass:
 5) Denied: When the warden "denies" the out-pass, it's status changes to "Denied".
 6) Expired: When the out-pass is out of use, that is current date is greater than or equal to return date mentioned by user, it is "Expired".
 
-View History:
+#View History:
 Of which if the status of the out-pass is one of the last three, it appears under "View History" section/ "ViewHistory" route.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/896e8567-da99-47e1-9ccb-8582207ff901)
 
-Warden details:
+#Warden details:
 
 The details of the warden of that particular hostel number of the student is displayed under "Warden details"/WardenDetails" route.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/3abece7f-a3b2-4d8f-b8ea-fa0fe946cf37)
 
-Help: ("/Help" route)
+#Help: ("/Help" route)
 The help section displays instructions for the user.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/a863071c-20af-434c-ab8f-3eda2060e972)
 
-Other notifications enabled using toastify:
+#Other notifications enabled using toastify:
 
 When the leave date > return date:
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/d380fae6-77d4-48b4-9793-839b25a61567)
@@ -88,7 +88,7 @@ When the leave date > return date:
 When the details are entered correctly, it enables a notification and it is redirected to home page:
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/1e5f3d6a-63ef-4030-9fcd-733d7715cb73)
 
-Logout: Clicking on the user name leads to the logout page. A dedicated "/Logout" route is made for it.
+#Logout: Clicking on the user name leads to the logout page. A dedicated "/Logout" route is made for it.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/6f2a9d21-6823-45fe-a930-fbb43a98493e)
 
