@@ -10,7 +10,7 @@ User-friendly responsive navbar:
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/60bc7eb8-d822-4409-bdc1-0da8e759996d)
 
-Creation of out-pass:
+Create out-pass:
 Details of the student from MySQL database get auto-filled under the Create Outpass section.
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/cb8e487d-7004-4d95-98fa-017980c97d33)
 
@@ -24,6 +24,8 @@ Upon clicking "SUBMIT", a toastify notification is enabled.
 
 If the leave date and return date overlaps with already existing leave dates and return dates in the database, the data doesn't get submitted. Only a notification is enabled.
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/4549f0bc-4a8a-495f-8675-2bcea4670fbc)
+
+Home page: 
 
 An out-pass can be viewed only when the out-pass is approved.
 
@@ -43,12 +45,29 @@ EXTEND MODAL:
 CANCEL MODAL:
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/63bba092-7619-4315-a610-98c1ee9cce54)
 
+States of an out-pass:
+There are 6 states to an out-pass:
+1) Waiting: Once the out-pass is created by a student, it is in "Waiting" state and appears in the warden-side dashboard. In this state it cannot be viewed but cancelled/extended.
+2) Approved: Once the out-pass is approved by the warden, it is in "Approved" state. In this state it cannot be extended. But it can be viewed/cancelled.
+3) In-use: When the current-date is greater than or equal to leave-date mentioned by user, it is in use. In this state all operations can be performed.
+4) Cancelled: An out-pass can be cancelled by a user, the status changes to "Cancelled".
+5) Denied: When the warden "denies" the out-pass, it's status changes to "Denied".
+6) Expired: When the out-pass is out of use, that is current date is greater than or equal to return date mentioned by user, it is "Expired".
 
+View History:
+Of which if the status of the out-pass is one of the last three, it appears under "View History" section.
 
+![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/896e8567-da99-47e1-9ccb-8582207ff901)
 
+Warden details:
 
+The details of the warden of that particular hostel number of the student is displayed under "Warden details".
 
+![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/3abece7f-a3b2-4d8f-b8ea-fa0fe946cf37)
 
+Help:
+The help section displays instructions for the user.
 
+![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/a863071c-20af-434c-ab8f-3eda2060e972)
 
-
+Conclusion: A user-friendly student dashboard was built using ReactJS, NodeJS and MySQL.This project demonstrates my commitment to creating user-centric solutions and streamlining administrative tasks, ultimately improving the overall hostel experience for students. With the powerful combination of modern web technologies and a focus on user needs, I believe this student dashboard sets a new standard for out-pass management systems.
