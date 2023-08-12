@@ -12,7 +12,7 @@ User-friendly responsive navbar:
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/60bc7eb8-d822-4409-bdc1-0da8e759996d)
 
 Create out-pass:
-Details of the student from MySQL database get auto-filled under the "Create Outpass" section.
+Details of the student from MySQL database get auto-filled under the "Create Outpass" section/ "/CreateOutpass" route.
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/cb8e487d-7004-4d95-98fa-017980c97d33)
 
 Student must enter the details required for the out-pass registration.
@@ -64,17 +64,17 @@ There are 6 states to an out-pass:
 6) Expired: When the out-pass is out of use, that is current date is greater than or equal to return date mentioned by user, it is "Expired".
 
 View History:
-Of which if the status of the out-pass is one of the last three, it appears under "View History" section.
+Of which if the status of the out-pass is one of the last three, it appears under "View History" section/ "ViewHistory" route.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/896e8567-da99-47e1-9ccb-8582207ff901)
 
 Warden details:
 
-The details of the warden of that particular hostel number of the student is displayed under "Warden details".
+The details of the warden of that particular hostel number of the student is displayed under "Warden details"/WardenDetails" route.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/3abece7f-a3b2-4d8f-b8ea-fa0fe946cf37)
 
-Help:
+Help: ("/Help" route)
 The help section displays instructions for the user.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/a863071c-20af-434c-ab8f-3eda2060e972)
