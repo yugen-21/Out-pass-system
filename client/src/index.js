@@ -11,7 +11,8 @@ import WardenDetails from "./routes/WardenDetails";
 import ZeroMessage from "./routes/homeElements/zeroMessage";
 import "./styles.css";
 
-var email_id = 'shama21110467@snuchennai.edu.in';
+//set email ID of the logged in user
+var email_id = '*********';
 const AppLayout = () => {
   return (
     <>
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/WardenDetails",
-        element: <WardenDetails />,
+        element: <WardenDetails email={email_id} />,
       },
       {
         path: "/Help",
@@ -56,3 +57,4 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
 );
+
