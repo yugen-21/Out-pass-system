@@ -19,6 +19,10 @@ Student must enter the details required for the out-pass registration.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/c7d9912f-37c0-4427-ba1c-5384e34d26b9)
 
+Date input:
+![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/81ca5af7-8ac4-4738-921f-1b77df052ef4)
+
+
 Upon clicking on "SUBMIT", a toastify notification is enabled.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/94f6f9bb-3948-4e63-919b-b9c4d60bc523)
