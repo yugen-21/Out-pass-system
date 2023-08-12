@@ -71,4 +71,14 @@ The help section displays instructions for the user.
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/a863071c-20af-434c-ab8f-3eda2060e972)
 
+Other notifications enabled using toastify:
+
+When the leave date > return date:
+![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/d380fae6-77d4-48b4-9793-839b25a61567)
+
+When the details are entered correctly, it enables a notification and it is redirected to home page:
+![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/1e5f3d6a-63ef-4030-9fcd-733d7715cb73)
+
+
+
 Conclusion: A user-friendly student dashboard was built using ReactJS, NodeJS and MySQL.This project demonstrates my commitment to creating user-centric solutions and streamlining administrative tasks, ultimately improving the overall hostel experience for students. With the powerful combination of modern web technologies and a focus on user needs, I believe this student dashboard sets a new standard for out-pass management systems.
