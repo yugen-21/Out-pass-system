@@ -65,3 +65,12 @@ export const fetchExistingOutPassRecords = async (email) => {
       throw error;
     }
   }
+export const fetchWardenDetails = async(hostel_no)=>{
+    try{
+      const response = await Axios.get("http://localhost:3001/warden?hostel_no=" + hostel_no);
+      return (response).data;
+    }
+    catch(error){
+      throw error;
+    }
+  }
