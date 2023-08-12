@@ -6,7 +6,8 @@ The features include:
 
 User-friendly responsive navbar: 
 
-![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/b444affd-399b-4e02-ab94-ece0c06f2a46)
+![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/acaa1c8f-e3c4-4d6b-913b-9b9932b9964a)
+
 
 ![image](https://github.com/yugen-21/Out-pass-system-student-dashboard/assets/98334746/60bc7eb8-d822-4409-bdc1-0da8e759996d)
 
